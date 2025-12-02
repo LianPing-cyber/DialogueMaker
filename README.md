@@ -16,4 +16,5 @@ Generating dialogues using api. Support customizing characters, dialogue backgro
 
 ## 使用方法
 Set your api key and base url in config.yaml
+
 Set each dialogue settings in dialogue_settings.json
