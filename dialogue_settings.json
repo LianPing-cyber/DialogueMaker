@@ -1,0 +1,40 @@
+[
+  {
+    "id": "scenario_1",
+    "context": "两个多年未见的老友在咖啡厅偶然重逢，窗外下着小雨。",
+    "characters": {
+      "小明": "25岁，程序员，性格内向但真诚，喜欢思考人生",
+      "小红": "24岁，设计师，外向活泼，但对感情问题比较敏感"
+    },
+    "num_turns": 2,
+    "temperature": 0.7,
+    "model": "deepseek-v3",
+    "output_file": "output_dialogues/scenario_1.json"
+  },
+  {
+    "id": "scenario_2",
+    "context": "公司会议室里，项目经理正在向团队成员介绍新项目的需求。",
+    "characters": {
+      "张经理": "35岁，项目经理，经验丰富，善于沟通协调",
+      "小李": "28岁，前端开发工程师，技术扎实但有点内向",
+      "小王": "30岁，UI设计师，创意丰富，表达能力强"
+    },
+    "num_turns": 2,
+    "temperature": 0.6,
+    "model": "deepseek-v3",
+    "output_file": "output_dialogues/scenario_2.json"
+  },
+  {
+    "id": "scenario_3",
+    "context": "家庭晚餐时间，父母正在和刚高考完的孩子讨论未来专业选择。",
+    "characters": {
+      "父亲": "45岁，工程师，理性务实，希望孩子学理工科",
+      "母亲": "43岁，教师，温和细心，更关注孩子的兴趣",
+      "孩子": "18岁，刚参加完高考，对未来充满迷茫但有自己的想法"
+    },
+    "num_turns": 2,
+    "temperature": 0.8,
+    "model": "deepseek-v3",
+    "output_file": "output_dialogues/scenario_3.json"
+  }
+]

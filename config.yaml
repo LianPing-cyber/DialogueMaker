@@ -1,0 +1,13 @@
+# API 设置
+api:
+  api_key: "sk-DYefFn6uXonsXy4uVS3oUKZOegXAyav0MRihuzoHAe9NvtHd"
+  base_url: "https://aiapi.chaitin.net/v1"
+  model: "deepseek-v3"  # 添加模型名称选项
+
+# 对话设置
+dialogue_settings: "dialogue_settings.json"
+  # 对话背景
+  # 对话轮数
+
+# 输出设置
+output_folder: "output_dialogues/"
