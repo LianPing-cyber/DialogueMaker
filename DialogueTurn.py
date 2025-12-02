@@ -80,7 +80,7 @@ class DialogueClient:
         # 2. 对话历史（最近几轮）
         if history:
             prompt_parts.append("\n当前对话历史：")
-            for turn in history[-5:]:  # 只保留最近5轮
+            for turn in history[-10:]:  # 只保留最近10轮
                 turn_str = ""
                 if turn.scene:
                     turn_str += f"【{turn.scene}】\n"
@@ -175,7 +175,7 @@ class DialogueClient:
         """
         # 构建对话历史文本
         history_text = []
-        for turn in history[-3:]:  # 只使用最近3轮作为历史
+        for turn in history[-10:]:  # 只使用最近10轮作为历史
             turn_str = ""
             if turn.scene:
                 turn_str += f"【{turn.scene}】\n"
@@ -220,7 +220,7 @@ class DialogueClient:
                 {"role": "user", "content": user_prompt}
             ],
             "temperature": temperature,
-            "max_tokens": 2048,
+            "max_new_tokens": 512,
             "stream": False
         }
         
